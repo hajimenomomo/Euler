@@ -24,6 +24,7 @@ def prime_factorization(N):
     factors.extend(full_prime_factorization(res))
     return factors
 
+
 def full_prime_factorization(N):
     cnt = 1
     factor = N
